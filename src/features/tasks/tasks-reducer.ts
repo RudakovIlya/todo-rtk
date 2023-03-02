@@ -2,8 +2,6 @@ import { tasksAPI } from '@app/api'
 import { APIResultCodes, DefaultTakType, TStatusType, UpdateTaskType } from '@app/types'
 
 import { errorAPIHandler, handleServerNetworkError } from '@utils/error-handler'
-
-import { setAppStatusAC } from '../app/app-reducer'
 import { createTodoListAC, deleteTodoListAC, setTodoListsAC } from '../todolists/todolist-reducer'
 import { Dispatch } from 'redux'
 import { RootStateType } from '@app/store'

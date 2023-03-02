@@ -1,8 +1,6 @@
 import { useAppDispatch } from '@app/hooks'
 
 import { useCallback } from 'react'
-
-import { createTaskThunk } from '../tasks/tasks-reducer'
 import { FilterValuesType } from './todolist-reducer'
 import { changeTodoListFilter, deleteTodolist, updateTodolist } from './todo-slice'
 import { createTask } from '@features/tasks/tasks-slice'
