@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@components": [
+        "components"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@stories": [
+        "stories"
+      ],
+      "@stories/*": [
+        "stories/*"
+      ],
+      "@features": [
+        "features"
+      ],
+      "@features/*": [
+        "features/*"
+      ],
+      "@utils": [
+        "utils"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@ui": [
+        "ui"
+      ],
+      "@ui/*": [
+        "ui/*"
+      ],
+      "@app": [
+        "app"
+      ],
+      "@app/*": [
+        "app/*"
+      ]
+    }
+  }
+}
